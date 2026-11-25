@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keraya | باك العناية بالشعر الجاف - الدفع عند الاستلام</title>
+<meta name="description" content="Keraya: شامبو بالبروتين + ماسك الكاكاو والكاريتي. الدفع عند الاستلام والتوصيل لجميع مدن المغرب.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#faf5ec;--sand:#efe4d0;--gold:#b8893b;--gold2:#d9b36a;--brown:#3b2a1a;--green:#2f6b4f;--wa:#25d366}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo',sans-serif;background:var(--cream);color:var(--brown);line-height:1.7;padding-bottom:78px}
+.wrap{max-width:1040px;margin:auto;padding:0 18px}
+.topbar{background:var(--brown);color:#f6e7c8;text-align:center;font-size:14px;padding:8px 10px;font-weight:600}
+header{padding:16px 0}
+header .wrap{display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:'Playfair Display',serif;font-size:30px;font-weight:700;color:var(--gold);letter-spacing:1px}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#fff;font-weight:900;border:0;border-radius:50px;padding:14px 34px;font-size:18px;text-decoration:none;cursor:pointer;font-family:inherit;box-shadow:0 8px 20px rgba(184,137,59,.35);transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.small{padding:8px 20px;font-size:15px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;padding:30px 0 50px}
+.tag{display:inline-block;background:var(--sand);color:var(--gold);padding:4px 16px;border-radius:30px;font-weight:700;font-size:14px;margin-bottom:12px}
+h1{font-size:40px;line-height:1.4;font-weight:900}
+h1 span{color:var(--gold)}
+.hero p{font-size:18px;margin:14px 0 22px;color:#5a4632}
+.ticks{list-style:none;margin-bottom:24px}
+.ticks li{padding:3px 0;font-weight:600}
+.ticks li:before{content:"✓";color:var(--green);font-weight:900;margin-left:8px}
+.price-line{margin-top:14px;font-size:15px;color:#5a4632}
+.art{background:radial-gradient(circle at 50% 40%,#fff 0,var(--sand) 75%);border-radius:30px;padding:20px;text-align:center}
+.art svg{width:100%;max-width:420px;height:auto}
+section{padding:50px 0}
+h2{text-align:center;font-size:30px;font-weight:900;margin-bottom:8px}
+.sub{text-align:center;color:#6b5640;margin-bottom:30px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border-radius:20px;padding:24px;box-shadow:0 6px 24px rgba(59,42,26,.07);text-align:center}
+.card .ic{font-size:38px;margin-bottom:6px}
+.card h3{font-size:19px;margin-bottom:4px}
+.card p{font-size:15px;color:#6b5640}
+.alt{background:#fff}
+.prod{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.prod .card{text-align:right}
+.prod h3{color:var(--gold);font-size:22px}
+.prod ul{list-style:none;margin-top:8px}
+.prod li{padding:2px 0;font-size:15px}
+.prod li:before{content:"•";color:var(--gold);margin-left:8px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
+.steps .n{width:46px;height:46px;border-radius:50%;background:var(--gold);color:#fff;font-weight:900;font-size:20px;display:flex;align-items:center;justify-content:center;margin:0 auto 8px}
+.offer{background:linear-gradient(135deg,var(--brown),#5a3f26);color:#fff;border-radius:28px;padding:34px;text-align:center}
+.offer .big{font-size:56px;font-weight:900;color:var(--gold2);line-height:1.2}
+.offer .big small{font-size:22px}
+.offer ul{list-style:none;margin:14px 0 20px}
+.offer li{padding:2px 0}
+.offer li:before{content:"✓ ";color:var(--gold2)}
+.formbox{background:#fff;border-radius:24px;padding:28px;box-shadow:0 10px 40px rgba(59,42,26,.1);max-width:560px;margin:auto}
+label{display:block;font-weight:700;margin:12px 0 4px}
+input,select{width:100%;padding:13px 14px;border:2px solid var(--sand);border-radius:12px;font-size:16px;font-family:inherit;background:var(--cream)}
+input:focus,select:focus{outline:0;border-color:var(--gold)}
+.formbox .btn{width:100%;margin-top:18px;text-align:center}
+.note{font-size:13px;color:#7a6650;text-align:center;margin-top:10px}
+details{background:#fff;border-radius:14px;padding:14px 18px;margin-bottom:10px;box-shadow:0 3px 12px rgba(59,42,26,.05)}
+summary{font-weight:700;cursor:pointer}
+details p{margin-top:8px;color:#5a4632;font-size:15px}
+footer{background:var(--brown);color:#d9c7a6;text-align:center;padding:30px 18px;font-size:13px}
+footer .logo{display:block;margin-bottom:6px}
+.sticky{position:fixed;bottom:0;left:0;right:0;background:#fff;box-shadow:0 -4px 20px rgba(0,0,0,.12);padding:10px 14px;display:flex;gap:10px;align-items:center;justify-content:space-between;z-index:50}
+.sticky .p{font-weight:900;font-size:18px}
+.sticky .p small{display:block;font-weight:600;font-size:12px;color:#7a6650}
+.ok{display:none;text-align:center;padding:30px}
+@media(max-width:760px){
+.hero{grid-template-columns:1fr;padding-top:10px}h1{font-size:30px}.grid3,.prod,.steps{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr}.prod{grid-template-columns:1fr}.offer .big{font-size:44px}h2{font-size:25px}}
+</style>
+</head>
+<body>
+<div class="topbar">🚚 التوصيل لجميع مدن المغرب · الدفع عند الاستلام</div>
+<header><div class="wrap"><div class="logo">KERAYA</div><a href="#order" class="btn small">اطلبي دابا</a></div></header>
+
+<div class="wrap">
+<div class="hero">
+ <div>
+  <span class="tag">باك خاص بالشعر الجاف والمتقصف</span>
+  <h1>شعرك فالشتا <span>محتاج عناية</span> حقيقية بالكاكاو والكاريتي</h1>
+  <p>الشامبو بالبروتين + ماسك الكاكاو والكاريتي. روتين بسيط كيعاونك يرجع لشعرك الترطيب والنعومة واللمعان.</p>
+  <ul class="ticks">
+   <li>شامبو بالبروتين 150 مل</li>
+   <li>ماسك الكاكاو والكاريتي 200 غ</li>
+   <li>الدفع عند الاستلام، ما كتخلصي والو قبل</li>
+   <li>التوصيل لجميع مدن المغرب</li>
+  </ul>
+  <a href="#order" class="btn">أطلبي الباك دابا</a>
+  <div class="price-line">الباك كامل: <b>299 درهم</b> فقط · التوصيل والدفع عند الاستلام</div>
+ </div>
+ <div class="art">
+  <svg viewBox="0 0 420 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Keraya pack">
+   <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#b8893b"/><stop offset="1" stop-color="#e3c27c"/></linearGradient></defs>
+   <ellipse cx="210" cy="345" rx="170" ry="16" fill="#3b2a1a" opacity=".12"/>
+   <rect x="70" y="120" width="110" height="215" rx="22" fill="#fff" stroke="#d9b36a" stroke-width="3"/>
+   <rect x="100" y="80" width="50" height="46" rx="8" fill="url(#g)"/>
+   <rect x="115" y="56" width="20" height="28" rx="5" fill="#3b2a1a"/>
+   <text x="125" y="205" text-anchor="middle" font-family="Playfair Display,serif" font-size="22" fill="#b8893b" font-weight="700">KERAYA</text>
+   <text x="125" y="232" text-anchor="middle" font-family="Cairo,sans-serif" font-size="13" fill="#3b2a1a">شامبو بالبروتين</text>
+   <text x="125" y="300" text-anchor="middle" font-size="12" fill="#6b5640" direction="ltr">150 ml</text>
+   <rect x="215" y="215" width="140" height="120" rx="20" fill="#fff" stroke="#d9b36a" stroke-width="3"/>
+   <rect x="208" y="190" width="154" height="40" rx="12" fill="url(#g)"/>
+   <text x="285" y="262" text-anchor="middle" font-family="Playfair Display,serif" font-size="22" fill="#b8893b" font-weight="700">KERAYA</text>
+   <text x="285" y="288" text-anchor="middle" font-family="Cairo,sans-serif" font-size="13" fill="#3b2a1a">ماسك الكاكاو والكاريتي</text>
+   <text x="285" y="316" text-anchor="middle" font-size="12" fill="#6b5640" direction="ltr">200 g</text>
+  </svg>
+ </div>
+</div>
+</div>
+
+<section class="alt"><div class="wrap">
+ <h2>واش شعرك كيعاني من هادشي؟</h2>
+ <p class="sub">فالشتا والماء الصلب (الكالكير) والسيشوار، الشعر كيولي...</p>
+ <div class="grid3">
+  <div class="card"><div class="ic">🌵</div><h3>جاف وخشين</h3><p>كيحس بالنشاف حتى من بعد الغسيل.</p></div>
+  <div class="card"><div class="ic">⚡</div><h3>فريزي وصعيب فالتسريح</h3><p>كيتنفش وما كيتسرحش بسهولة.</p></div>
+  <div class="card"><div class="ic">✂️</div><h3>أطراف مقصفة</h3><p>الأطراف كتبان جافة وبلا حياة.</p></div>
+ </div>
+</div></section>
+
+<section><div class="wrap">
+ <h2>الحل: روتين Keraya من خطوتين</h2>
+ <p class="sub">منتوجات بمكونات طبيعية معروفة بالترطيب والتغذية</p>
+ <div class="prod">
+  <div class="card"><h3>🧴 شامبو بالبروتين · 150 مل</h3>
+   <ul><li>كينظف الشعر بلطف</li><li>بالبروتين لشعر حسّه أنعم</li><li>مناسب للاستعمال المنتظم</li></ul></div>
+  <div class="card"><h3>🥥 ماسك الكاكاو والكاريتي · 200 غ</h3>
+   <ul><li>غني بزبدة الكاريتي (Karité) والكاكاو</li><li>كيرطب ويعطي النعومة واللمعان</li><li>كيسهل التسريح</li></ul></div>
+ </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+ <h2>علاش Keraya؟</h2>
+ <p class="sub">&nbsp;</p>
+ <div class="grid3">
+  <div class="card"><div class="ic">🌿</div><h3>مكونات طبيعية</h3><p>كاكاو، كاريتي وجوز الهند.</p></div>
+  <div class="card"><div class="ic">💆‍♀️</div><h3>استعمال سهل</h3><p>كيدخل فروتينك ديال الحمام بلا تعقيد.</p></div>
+  <div class="card"><div class="ic">💵</div><h3>ما كتخلصي حتى تستلمي</h3><p>تشوفي الطلب فيديك وبعدا تخلصي.</p></div>
+ </div>
+</div></section>
+
+<section><div class="wrap">
+ <h2>كيفاش كنتسلمي؟ 4 خطوات</h2>
+ <p class="sub">&nbsp;</p>
+ <div class="steps">
+  <div><div class="n">1</div><b>عمري الفورم</b><p>الاسم، الهاتف والمدينة</p></div>
+  <div><div class="n">2</div><b>كنتاصلو بيك</b><p>باش نأكدو الطلب</p></div>
+  <div><div class="n">3</div><b>كنصيفطو ليك</b><p>لباب الدار</p></div>
+  <div><div class="n">4</div><b>كتخلصي عند الاستلام</b><p>299 درهم</p></div>
+ </div>
+</div></section>
+
+<section class="alt" id="order"><div class="wrap">
+ <div class="offer">
+  <span class="tag">العرض</span>
+  <div class="big">299 <small>درهم</small></div>
+  <ul><li>شامبو بالبروتين 150 مل</li><li>ماسك الكاكاو والكاريتي 200 غ</li><li>التوصيل لجميع مدن المغرب</li><li>الدفع عند الاستلام</li></ul>
+ </div>
+ <div style="height:26px"></div>
+ <div class="formbox">
+  <h2 style="font-size:24px">أطلبي دابا</h2>
+  <p class="sub" style="margin-bottom:6px">عمري المعلومات وغادي نتاصلو بيك لتأكيد الطلب</p>
+  <form id="f">
+   <label for="n">الاسم الكامل</label><input id="n" required autocomplete="name" placeholder="مثال: فاطمة العلوي">
+   <label for="t">رقم الهاتف</label><input id="t" required type="tel" inputmode="numeric" pattern="0[5-7][0-9]{8}" autocomplete="tel" placeholder="06XXXXXXXX">
+   <label for="c">المدينة</label>
+   <select id="c" required><option value="">اختاري المدينة</option><option>الدار البيضاء</option><option>الرباط</option><option>مراكش</option><option>فاس</option><option>طنجة</option><option>أكادير</option><option>مكناس</option><option>وجدة</option><option>القنيطرة</option><option>تطوان</option><option>سلا</option><option>تمارة</option><option>المحمدية</option><option>أخرى</option></select>
+   <label for="a">العنوان</label><input id="a" required autocomplete="street-address" placeholder="الحي، الزنقة، رقم الدار">
+   <button class="btn" type="submit">تأكيد الطلب · الدفع عند الاستلام</button>
+   <p class="note">ما كتخلصي والو دابا. كتخلصي 299 درهم غير فاش كيوصلك الطلب.</p>
+  </form>
+ </div>
+</div></section>
+
+<section><div class="wrap" style="max-width:720px">
+ <h2>أسئلة كثيرة التداول</h2>
+ <p class="sub">&nbsp;</p>
+ <details><summary>واش الدفع عند الاستلام؟</summary><p>إيه، كتخلصي فاش كيوصلك الطلب. ما كاين حتى أداء مسبق.</p></details>
+ <details><summary>شحال كياخد التوصيل؟</summary><p>التوصيل كيكون عادة فبضعة أيام عمل حسب المدينة. غادي نأكدو معاك المدة فمكالمة التأكيد.</p></details>
+ <details><summary>واش التوصيل لجميع المدن؟</summary><p>إيه، كنوصلو لجميع مدن المغرب.</p></details>
+ <details><summary>كيفاش نستعمل المنتوجات؟</summary><p>الشامبو على شعر مبلول وتدلكي وتشطفي. الماسك بعد الشامبو، خليه بضع دقائق وشطفيه. التفاصيل كاينة على العلبة.</p></details>
+ <details><summary>واش كاين ضمان؟</summary><p>كتشوفي الطلب فيديك قبل ما تخلصي. إلا كان شي مشكل فالطلب تواصلي معانا وغادي نشوفو معاك.</p></details>
+ <p class="note" style="margin-top:14px">النتائج كتختلف من شعر لآخر. هاد المنتوجات مستحضرات تجميل للعناية بالشعر وماشي دواء.</p>
+</div></section>
+
+<footer><span class="logo">KERAYA</span>© 2026 Keraya · جميع الحقوق محفوظة<br>مستحضرات تجميل للعناية بالشعر</footer>
+
+<div class="sticky"><div class="p">299 درهم<small>الدفع عند الاستلام</small></div><a href="#order" class="btn small">اطلبي دابا</a></div>
+
+<script>
+// Orders open WhatsApp with a prefilled message. Change the number here (international format, no +).
+var WHATSAPP_NUMBER="212649566468";
+document.getElementById('f').addEventListener('submit',function(e){
+ e.preventDefault();
+ var v=function(i){return document.getElementById(i).value.trim()};
+ var m="طلب جديد - Keraya (الباك: شامبو + ماسك) 299 درهم\nالاسم: "+v('n')+"\nالهاتف: "+v('t')+"\nالمدينة: "+v('c')+"\nالعنوان: "+v('a')+"\nالدفع عند الاستلام";
+ window.location.href="https://wa.me/"+WHATSAPP_NUMBER+"?text="+encodeURIComponent(m);
+});
+</script>
+</body>
+</html>
